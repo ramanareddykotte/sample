@@ -14,5 +14,6 @@ http://www.mulesoft.org/schema/mule/ajax http://www.mulesoft.org/schema/mule/aja
             <ajax:outbound-endpoint channel="" responseTimeout="10000" doc:name="Ajax"/>
         </response>
         <set-payload value="welocome to mule esb" doc:name="Set Payload"/>
+        <logger message="response..final" level="INFO" doc:name="Logger"/>
     </flow>
 </mule>
